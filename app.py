@@ -62,7 +62,7 @@ with col_dev3:
         if spk_rti_type == "Fast Response (50)":
             spk_rti = 50.0
         elif spk_rti_type == "Standard Response (130)":
-            spk_rti = 130.0
+            spk_rti = 150.0
         else:
             spk_rti = st.number_input("Custom Spk RTI", min_value=1.0, value=100.0, step=1.0)
             
